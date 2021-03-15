@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/mall-common/mall-common-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-common/mall-common-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-common/mall-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-common/mall-common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-common/mall-security-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-common/mall-security-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-common/mall-security-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-discovery/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-generator/mall-generator-mdc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-generator/mall-generator-omc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-generator/mall-generator-opc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-generator/mall-generator-tpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-generator/mall-generator-uac/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-provider-api/mall-provider-mdc-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-provider-api/mall-provider-omc-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-provider-api/mall-provider-opc-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-provider-api/mall-provider-sdk-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-provider-api/mall-provider-tpc-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-provider-api/mall-provider-uac-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-provider/mall-provider-mdc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-provider/mall-provider-omc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-provider/mall-provider-opc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-provider/mall-provider-tpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-provider/mall-provider-uac/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-zipkin/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

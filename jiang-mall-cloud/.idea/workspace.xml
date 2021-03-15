@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d1c0c22-5302-406f-bdb0-714396a0f68c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/constant/AliyunTopicConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/constant/GlobalConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-security-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-security-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-security-feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-discovery/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-generator/mall-generator-mdc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-generator/mall-generator-mdc/src/main/java/org/jiang/PaginationPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-generator/mall-generator-mdc/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-generator/mall-generator-mdc/src/main/resources/generator/generatorConfig-A.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-generator/mall-generator-mdc/src/main/resources/generator/generatorConfig-B.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-generator/mall-generator-omc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-generator/mall-generator-opc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-generator/mall-generator-tpc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-generator/mall-generator-uac/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-monitor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-provider-api/mall-provider-mdc-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-provider-api/mall-provider-omc-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-provider-api/mall-provider-opc-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-provider-api/mall-provider-sdk-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-provider-api/mall-provider-tpc-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-provider-api/mall-provider-uac-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-provider-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-provider/mall-provider-mdc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-provider/mall-provider-omc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-provider/mall-provider-opc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-provider/mall-provider-tpc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-provider/mall-provider-uac/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-zipkin/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pnFWIjNK8JYl6MxzRYssmLHJWx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d1c0c22-5302-406f-bdb0-714396a0f68c" name="Default Changelist" comment="" />
+      <created>1615810977781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615810977781</updated>
+      <workItem from="1615810979132" duration="1874000" />
+      <workItem from="1615812875445" duration="288000" />
+      <workItem from="1615813187371" duration="312000" />
+      <workItem from="1615813526497" duration="233000" />
+      <workItem from="1615813789383" duration="99000" />
+      <workItem from="1615813922318" duration="11009000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="818" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1615822160522">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="818" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1615822160522" />
+    <state width="712" height="213" key="GridCell.Tab.0.bottom" timestamp="1615820521220">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="712" height="213" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1615820521220" />
+    <state width="712" height="213" key="GridCell.Tab.0.center" timestamp="1615820521220">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="712" height="213" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1615820521220" />
+    <state width="712" height="213" key="GridCell.Tab.0.left" timestamp="1615820521220">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="712" height="213" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1615820521220" />
+    <state width="712" height="213" key="GridCell.Tab.0.right" timestamp="1615820521220">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="712" height="213" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1615820521220" />
+    <state x="498" y="6" key="SettingsEditor" timestamp="1615815718771">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="498" y="6" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1615815718771" />
+    <state x="354" y="11" key="new project wizard" timestamp="1615813995994">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="354" y="11" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1615813995994" />
+  </component>
+</project>

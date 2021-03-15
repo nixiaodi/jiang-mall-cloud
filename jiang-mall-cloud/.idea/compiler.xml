@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-generator-tpc" />
+        <module name="mall-provider-omc" />
+        <module name="mall-provider-tpc-api" />
+        <module name="mall-provider-uac-api" />
+        <module name="mall-monitor" />
+        <module name="mall-common-zk" />
+        <module name="mall-provider-opc-api" />
+        <module name="mall-provider-tpc" />
+        <module name="mall-discovery" />
+        <module name="mall-security-core" />
+        <module name="mall-generator-omc" />
+        <module name="mall-eureka" />
+        <module name="mall-common-util" />
+        <module name="mall-generator-opc" />
+        <module name="mall-common-config" />
+        <module name="mall-common-core" />
+        <module name="mall-generator-uac" />
+        <module name="mall-provider-mdc" />
+        <module name="mall-provider-mdc-api" />
+        <module name="mall-gateway" />
+        <module name="mall-provider-uac" />
+        <module name="mall-security-app" />
+        <module name="mall-provider-omc-api" />
+        <module name="mall-provider-opc" />
+        <module name="mall-common-base" />
+        <module name="mall-generator-mdc" />
+        <module name="mall-security-feign" />
+        <module name="mall-provider-sdk-api" />
+        <module name="mall-zipkin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mall-provider-tpc-api" target="1.8" />
+      <module name="mall-security-core" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mall-common" options="" />
+      <module name="mall-discovery" options="" />
+      <module name="mall-eureka" options="" />
+      <module name="mall-gateway" options="" />
+      <module name="mall-generator" options="" />
+      <module name="mall-monitor" options="" />
+      <module name="mall-provider" options="" />
+      <module name="mall-provider-api" options="" />
+      <module name="mall-zipkin" options="" />
+    </option>
+  </component>
+</project>
