@@ -4,7 +4,9 @@ import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.jiang.exception.HttpAesException;
+import org.omg.CORBA.PRIVATE_MEMBER;
 import org.omg.CORBA.PUBLIC_MEMBER;
+import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 
 import javax.crypto.Cipher;
@@ -17,6 +19,8 @@ import java.security.MessageDigest;
 public class HttpAesUtil {
 
     private static final String CHAR_SET = "UTF-8";
+    private static final String MD5 = "MD5";
+    private static final String AES = "AES";
 
     /**
      * 加密
@@ -33,10 +37,10 @@ public class HttpAesUtil {
             byte[] iv = ivParam.getBytes(CHAR_SET);
 
             if (md5Key) {
-                MessageDigest md5 = MessageDigest.getInstance("MD5");
+                MessageDigest md5 = MessageDigest.getInstance(MD5);
                 key = md5.digest(key);
             }
-            SecretKeySpec sKeySpec = new SecretKeySpec(key, "AES");
+            SecretKeySpec sKeySpec = new SecretKeySpec(key, AES);
             // "算法/模式/补码方式"
             Cipher cipher = Cipher.getInstance("AES/CBC/ISO10126Padding");
             //使用CBC模式, 需要一个向量iv, 可增加加密算法的强度
@@ -60,6 +64,30 @@ public class HttpAesUtil {
      * @return string      解密结果
      */
     public static String decrypt(String contentParam,String keyParam,boolean md5Key,String ivParam) {
-        return null;
+        try {
+            if (PubUtil.isNull(contentParam,keyParam,md5Key,ivParam)) {
+                return "";
+            }
+
+            byte[] content = new BASE64Decoder().decodeBuffer(contentParam);
+            byte[] key = keyParam.getBytes(CHAR_SET);
+            byte[] iv = ivParam.getBytes(CHAR_SET);
+
+            if (md5Key) {
+                MessageDigest md = MessageDigest.getInstance(MD5);
+                key = md.digest(key);
+            }
+            SecretKeySpec sKeySpec = new SecretKeySpec(key, AES);
+            //"算法/模式/补码方式"
+            Cipher cipher = Cipher.getInstance("AES/CBC/ISO10126Padding");
+            //使用CBC模式, 需要一个向量iv, 可增加加密算法的强度
+            IvParameterSpec ivPs = new IvParameterSpec(iv);
+            cipher.init(Cipher.DECRYPT_MODE,sKeySpec,ivPs);
+            byte[] result = cipher.doFinal(content);
+            return new String(result,CHAR_SET);
+        } catch (Exception e) {
+            log.error("解密失败",e);
+            throw new HttpAesException("解密失败");
+        }
     }
 }

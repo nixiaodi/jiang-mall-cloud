@@ -2,53 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d1c0c22-5302-406f-bdb0-714396a0f68c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/constant/AliyunSmsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/dto/BaseQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/dto/BaseTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/dto/BaseVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/dto/CheckValidDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/dto/GaodeMapBaseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/dto/JobParamter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/dto/KvDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/dto/LoginAuthDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/dto/MessageQueryDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/dto/MqMessageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/dto/ShardingContextDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/dto/UpdateStatusDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/dto/UserTokenDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/enums/ErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/exception/BooleanParseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/exception/ConfigException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/exception/ImportException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-base/src/main/java/org/jiang/exception/ReferenceModelNullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-config/src/main/java/org/jiang/config/MallCoreConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-config/src/main/java/org/jiang/config/properties/AliyunProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-config/src/main/java/org/jiang/config/properties/AsyncTaskProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-config/src/main/java/org/jiang/config/properties/GaodeMapProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-config/src/main/java/org/jiang/config/properties/JobProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-config/src/main/java/org/jiang/config/properties/MallProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-config/src/main/java/org/jiang/config/properties/QiNiuProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-config/src/main/java/org/jiang/config/properties/ReliableMessageProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-config/src/main/java/org/jiang/config/properties/SwaggerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-config/src/main/java/org/jiang/config/properties/ZookeeperProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/BigDecimalUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/Collection3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/HttpAesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/annotation/NoNeedAccessAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/exception/HttpAesException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/helper/LongJsonDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/helper/LongJsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/page/PageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/page/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/wrapper/PageWrapMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/wrapper/PageWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/wrapper/WrapMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/wrapper/Wrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/mall-common-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/mall-common-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/JacksonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/PubUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/PublicUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/RecursionTreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/RedisKeyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/ThreadLocalMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/UrlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/ValidateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/test/java/org/jiang/AesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/generator/IdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/generator/IncrementIdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/base/CoordinatorRegistryCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/base/RegisterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/base/RegistryCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/base/ReliableMessageRegisterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/exception/RegistryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/exception/RegistryExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/zookeeper/ZookeeperRegistryCenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-common/mall-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/mall-common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/mall-common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/mall-common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/HttpAesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/HttpAesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/mall-common-zk/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -119,7 +96,8 @@
       <workItem from="1615813526497" duration="233000" />
       <workItem from="1615813789383" duration="99000" />
       <workItem from="1615813922318" duration="11097000" />
-      <workItem from="1615898202968" duration="14030000" />
+      <workItem from="1615898202968" duration="14675000" />
+      <workItem from="1615982667490" duration="14770000" />
     </task>
     <servers />
   </component>
@@ -127,10 +105,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="818" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1615907718000">
+    <state x="818" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1615995522589">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="818" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1615907718000" />
+    <state x="818" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1615995522589" />
     <state width="712" height="213" key="GridCell.Tab.0.bottom" timestamp="1615830252053">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -155,9 +133,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="354" y="11" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1615813995994" />
-    <state x="829" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1615914429389">
+    <state x="830" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1616001465302">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="829" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1615914429389" />
+    <state x="830" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1616001465302" />
   </component>
 </project>
