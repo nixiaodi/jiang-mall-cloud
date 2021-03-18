@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * 协调分布式服务的注册中心
  */
-public interface CoordinatorRegistryCenter {
+public interface CoordinatorRegistryCenter extends RegistryCenter{
 
     /**
      * 直接从注册中心而非本地缓存获取数据.

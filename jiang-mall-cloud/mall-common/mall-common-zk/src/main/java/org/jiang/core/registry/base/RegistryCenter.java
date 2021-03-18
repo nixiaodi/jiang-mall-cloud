@@ -40,6 +40,14 @@ public interface RegistryCenter {
     void persist(String key);
 
     /**
+     * 持久化注册数据.
+     *
+     * @param key   键
+     * @param value 值
+     */
+    void persist(String key, String value);
+
+    /**
      * 更新注册数据.
      * @param key   键
      * @param value 值

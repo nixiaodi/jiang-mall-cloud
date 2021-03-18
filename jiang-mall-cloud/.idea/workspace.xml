@@ -2,30 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d1c0c22-5302-406f-bdb0-714396a0f68c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/JacksonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/PubUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/PublicUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/RandomUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/RecursionTreeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/RedisKeyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/ThreadLocalMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/UrlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/ValidateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/test/java/org/jiang/AesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/generator/IdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/generator/IncrementIdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/base/CoordinatorRegistryCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/base/RegisterDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/base/RegistryCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/base/ReliableMessageRegisterDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/exception/RegistryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/exception/RegistryExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/zookeeper/ZookeeperRegistryCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/mall-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/mall-common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/HttpAesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/mall-common-util/src/main/java/org/jiang/HttpAesUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/mall-common-zk/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-core/src/main/java/org/jiang/core/annotations/LogAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-core/src/main/java/org/jiang/core/annotations/NotDisplaySql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-core/src/main/java/org/jiang/core/annotations/OperationLogDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-core/src/main/java/org/jiang/core/annotations/ValidateAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-core/src/main/java/org/jiang/core/enums/LogType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-core/src/main/java/org/jiang/core/interceptor/SqlLogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/RegistryCenterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/generator/IncrementIdGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/generator/IncrementIdGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/base/CoordinatorRegistryCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/base/CoordinatorRegistryCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/base/RegistryCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/base/RegistryCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/zookeeper/ZookeeperRegistryCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/mall-common-zk/src/main/java/org/jiang/core/registry/zookeeper/ZookeeperRegistryCenter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -97,7 +85,8 @@
       <workItem from="1615813789383" duration="99000" />
       <workItem from="1615813922318" duration="11097000" />
       <workItem from="1615898202968" duration="14675000" />
-      <workItem from="1615982667490" duration="14770000" />
+      <workItem from="1615982667490" duration="15625000" />
+      <workItem from="1616093885713" duration="9039000" />
     </task>
     <servers />
   </component>
@@ -105,10 +94,14 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="818" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1615995522589">
+    <state x="818" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1616101633455">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="818" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1615995522589" />
+    <state x="818" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1616101633455" />
+    <state x="577" y="0" key="CommitChangelistDialog2" timestamp="1616100175070">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="577" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1616100175070" />
     <state width="712" height="213" key="GridCell.Tab.0.bottom" timestamp="1615830252053">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -133,9 +126,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="354" y="11" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1615813995994" />
-    <state x="830" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1616001465302">
+    <state x="830" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1616102106260">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="830" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1616001465302" />
+    <state x="830" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1616102106260" />
   </component>
 </project>
