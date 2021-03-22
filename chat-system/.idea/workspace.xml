@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fdb2fb20-5177-454d-aec1-819f48c0580d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chat-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/core/proxy/ProxyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/data/construct/RingBufferWheel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/data/construct/SortArrayMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/data/construct/TrieTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/enums/StatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/enums/SystemCommandEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/exception/ChatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/exception/GenericException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/kit/HeartBeatHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/model/CIMUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/model/RouteInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/request/BaseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/response/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/response/NullBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/route/algorithm/RouteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/route/algorithm/consistenthash/AbstartConstentHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/route/algorithm/consistenthash/ConsistentHashHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/route/algorithm/consistenthash/SortArrayMapConsistentHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/route/algorithm/consistenthash/TreeMapConsistentHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/route/algorithm/loop/LoopHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/route/algorithm/random/RandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/utils/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/utils/NettyAttributeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/utils/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/utils/RouteInfoParseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/org/jiang/chat/common/utils/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-forward-route/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-route-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-route-api/src/main/java/org/jiang/chat/route/api/RouteApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-route-api/src/main/java/org/jiang/chat/route/api/vo/request/ChatRequestVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-route-api/src/main/java/org/jiang/chat/route/api/vo/request/LoginRequestVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-route-api/src/main/java/org/jiang/chat/route/api/vo/request/P2PRequestVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-route-api/src/main/java/org/jiang/chat/route/api/vo/request/RegisterInfoRequestVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-route-api/src/main/java/org/jiang/chat/route/api/vo/request/SendMessageRequestVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-route-api/src/main/java/org/jiang/chat/route/api/vo/response/CIMServerResponseVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-route-api/src/main/java/org/jiang/chat/route/api/vo/response/RegisterInfoResponseVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-route-api/src/main/java/org/jiang/chat/route/api/vo/response/SendMessageResponseVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-api/src/main/java/org/jiang/chat/server/api/vo/ServerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-api/src/main/java/org/jiang/chat/server/api/vo/request/SendMessageRequestVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server-api/src/main/java/org/jiang/chat/server/api/vo/response/SendMessageResponseVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/CIMServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/config/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/config/EndPointConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/endpoint/CustomerEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/handler/CIMServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/initializer/CIMServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/kit/RegistryZk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/kit/RouteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/kit/ServerHeartBeatHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/kit/ZKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/server/CIMServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/util/SessionSocketHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/util/SpringBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protocol/BaseResponseProto.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protocol/BaseReuqestProto.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cim" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1q4WbZYQ5FSKAo8AE14C9p6TFB7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.CIMServerApplication">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.jiang.chat.common.data.construct.Test" />
+      <module name="chat-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jiang.chat.common.data.construct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CIMServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="chat-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jiang.chat.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.jiang.chat.server.CIMServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CIMServerApplication" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdb2fb20-5177-454d-aec1-819f48c0580d" name="Default Changelist" comment="" />
+      <created>1616339414111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616339414111</updated>
+      <workItem from="1616339415306" duration="10340000" />
+      <workItem from="1616415017470" duration="16445000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="969" y="188" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1616427313110">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="969" y="188" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.864@0.0.1536.864" timestamp="1616427313110" />
+    <state x="837" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616416163515">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="837" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1616416163515" />
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1616432247672">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1616432247672" />
+    <state x="903" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1616425483144">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="903" y="238" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1616425483144" />
+    <state x="826" y="171" key="FileChooserDialogImpl" timestamp="1616426808555">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="826" y="171" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1616426808555" />
+    <state width="1491" height="266" key="GridCell.Tab.0.bottom" timestamp="1616433621303">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="266" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1616433621303" />
+    <state width="1491" height="266" key="GridCell.Tab.0.center" timestamp="1616433621303">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="266" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1616433621303" />
+    <state width="1491" height="266" key="GridCell.Tab.0.left" timestamp="1616433621303">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="266" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1616433621303" />
+    <state width="1491" height="266" key="GridCell.Tab.0.right" timestamp="1616433621303">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="266" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1616433621303" />
+    <state width="1491" height="266" key="GridCell.Tab.1.bottom" timestamp="1616433635910">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="266" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1616433635910" />
+    <state width="1491" height="266" key="GridCell.Tab.1.center" timestamp="1616433635910">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="266" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1616433635910" />
+    <state width="1491" height="266" key="GridCell.Tab.1.left" timestamp="1616433635910">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="266" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1616433635910" />
+    <state width="1491" height="266" key="GridCell.Tab.1.right" timestamp="1616433635910">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1491" height="266" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1616433635910" />
+    <state x="555" y="75" key="SettingsEditor" timestamp="1616426815606">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="555" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1616426815606" />
+    <state x="472" y="122" width="592" height="620" key="find.popup" timestamp="1616341528423">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="472" y="122" width="592" height="620" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1616341528423" />
+    <state x="200" y="5" key="new project wizard" timestamp="1616339794024">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="200" y="5" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1616339794024" />
+    <state x="817" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1616426132111">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="817" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1616426132111" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chat-server/src/main/java/org/jiang/chat/server/kit/RegistryZk.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

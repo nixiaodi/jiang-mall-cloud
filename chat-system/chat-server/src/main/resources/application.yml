@@ -1,0 +1,60 @@
+spring:
+  application:
+    name: cim-server
+
+  boot:
+    admin:
+      url: http://127.0.0.1:8888
+
+# web port
+server:
+  port: 8081
+
+# 是否打开swagger
+swagger:
+  enable: true
+
+# cim服务器端口
+cim:
+  server:
+    port: 11211
+  # route url suggested that this is nginx address
+  route:
+    url: http://localhost:8083/
+  # 检测多少秒没有收到客户端心跳后服务端关闭连接
+  heartbeat:
+    time: 30
+
+logging:
+  level:
+    root: info
+
+# 关闭健康检查权限
+management:
+  security:
+    enabled: false
+
+# 自定义监控端点 key
+monitor:
+  channel:
+    map:
+      key: channelMap
+
+# 是否注册zk
+app:
+  zk:
+    switch: true
+    # zk 地址
+    addr: 81.69.240.49:2181
+    # zk 连接超时时间
+    connect:
+      timeout: 15000
+    # zk 注册根节点
+    root: /route
+
+
+
+
+
+
+
