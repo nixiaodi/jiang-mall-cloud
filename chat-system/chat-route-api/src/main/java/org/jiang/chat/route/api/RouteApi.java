@@ -2,6 +2,7 @@ package org.jiang.chat.route.api;
 
 import org.jiang.chat.common.response.BaseResponse;
 import org.jiang.chat.route.api.vo.request.ChatRequestVo;
+import org.jiang.chat.route.api.vo.request.LoginRequestVo;
 import org.jiang.chat.route.api.vo.request.P2PRequestVo;
 import org.jiang.chat.route.api.vo.request.RegisterInfoRequestVo;
 import org.jiang.chat.route.api.vo.response.RegisterInfoResponseVo;
@@ -37,11 +38,11 @@ public interface RouteApi {
 
     /**
      * login account
-     * @param groupRequestVo
+     * @param loginRequestVo
      * @return
      * @throws Exception
      */
-    Object login(ChatRequestVo groupRequestVo) throws Exception;
+    Object login(LoginRequestVo loginRequestVo) throws Exception;
 
     /**
      * register account

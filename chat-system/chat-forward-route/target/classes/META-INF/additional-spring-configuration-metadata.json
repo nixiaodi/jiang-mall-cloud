@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "app.zk.addr",
+      "type": "java.lang.String",
+      "description": "Description for app.zk.addr."
+    },
+    {
+      "name": "app.zk.connect.timeout",
+      "type": "java.lang.String",
+      "description": "Description for app.zk.connect.timeout."
+    }
+  ] }

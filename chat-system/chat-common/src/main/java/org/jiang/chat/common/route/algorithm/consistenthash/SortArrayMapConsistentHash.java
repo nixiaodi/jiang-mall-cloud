@@ -8,7 +8,7 @@ import org.jiang.chat.common.data.construct.SortArrayMap;
  * @author 蒋小胖
  */
 @Slf4j
-public class SortArrayMapConsistentHash extends AbstartConstentHash{
+public class SortArrayMapConsistentHash extends AbstractConsistentHash {
 
     private SortArrayMap sortArrayMap = new SortArrayMap();
 

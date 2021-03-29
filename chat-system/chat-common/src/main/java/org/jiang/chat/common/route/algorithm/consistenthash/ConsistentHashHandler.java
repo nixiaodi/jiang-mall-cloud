@@ -9,9 +9,9 @@ import java.util.List;
  * @author 蒋小胖
  */
 public class ConsistentHashHandler implements RouteHandler {
-    private AbstartConstentHash hash;
+    private AbstractConsistentHash hash;
 
-    public void setHash(AbstartConstentHash hash) {
+    public void setHash(AbstractConsistentHash hash) {
         this.hash = hash;
     }
 

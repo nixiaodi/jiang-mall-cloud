@@ -20,7 +20,7 @@ public class ChatRequestVo extends BaseRequest {
     @ApiModelProperty(required = true, value = "message", example = "hello")
     private String message ;
 
-    public ChatRequestVo() {
+    public ChatRequestVo(Long userId) {
     }
 
     public ChatRequestVo(Long userId, String message) {

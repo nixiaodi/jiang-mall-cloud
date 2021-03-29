@@ -298,7 +298,7 @@ public class RingBufferWheel {
     /**
      * An abstract class used to implement business.
      */
-    private static abstract class Task extends Thread {
+    public static abstract class Task extends Thread {
         private int index;
 
         private int cycleNum;

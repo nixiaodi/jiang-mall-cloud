@@ -1,0 +1,51 @@
+spring:
+  application:
+    name: cim-client
+  # springAdmin地址
+  boot:
+    admin:
+      url: http://127.0.0.1:8888
+
+# web port
+server:
+  port: 8082
+
+# 是否打开swagger
+swagger:
+  enable: true
+
+logging:
+  level:
+    root: error
+
+# 消息记录存放路径
+cim:
+  msg:
+    logger:
+      path: /opt/logs/cim/
+  # route url suggest that this is nginx address
+  route:
+    url: http://localhost:8083
+  # 客户端唯一ID
+  user:
+    id: 1616776605930
+    userName: jiang
+  callback:
+    thread:
+      queue:
+        size: 2
+      pool:
+        size: 2
+  # 检测多少妙没有收到服务端心跳后重新登录获取连接
+  heartbeat:
+    time: 60
+  # 客户端连接失败重连次数
+  reconnect:
+    count: 3
+
+# 关闭健康检查权限
+management:
+  security:
+    enabled: false
+
+

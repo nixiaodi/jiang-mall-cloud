@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [],
+  "properties": [
+    {
+      "name": "app.zk.addr",
+      "description": "Description for app.zk.addr.",
+      "type": "java.lang.String"
+    }
+  ]
+}

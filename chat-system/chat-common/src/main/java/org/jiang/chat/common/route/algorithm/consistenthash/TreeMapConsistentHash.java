@@ -12,7 +12,7 @@ import java.util.TreeMap;
  * @author 蒋小胖
  */
 @Slf4j
-public class TreeMapConsistentHash extends AbstartConstentHash{
+public class TreeMapConsistentHash extends AbstractConsistentHash {
 
     private TreeMap<Long,String> treeMap = new TreeMap<>();
 

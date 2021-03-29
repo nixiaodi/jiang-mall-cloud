@@ -1,0 +1,50 @@
+spring:
+  application:
+    name: cim-forward-route
+  # redis配置
+  redis:
+    host: 123.57.66.144
+    port: 6379
+    password: nidi1995230
+    pool:
+      max-active: 100
+      # 最大空闲数
+      max-idle: 100
+      max-wait: 1000
+      min-idle: 10
+
+
+
+# server port
+server:
+  port: 8083
+
+# 是否打开swagger
+swagger:
+  enable: true
+
+logging:
+  level:
+    root: info
+
+# 关闭健康检查权限
+management:
+  security:
+    enabled: false
+
+
+app:
+  zk:
+    # zk地址
+    addr: 81.69.240.49:2181
+    # zk连接超时时间
+    connect:
+      timeout: 15000
+    # zk注册根节点
+    root: /route
+  route:
+    # 路由策略: 一致性hash
+    way: org.jiang.chat.common.route.algorithm.consistenthash.ConsistentHashHandler
+    # 一致性hash算法具体实现--TreeMap
+    consistentHash: org.jiang.chat.common.route.algorithm.consistenthash.TreeMapConsistentHash
+

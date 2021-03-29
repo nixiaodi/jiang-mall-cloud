@@ -24,7 +24,7 @@ public class P2PRequestVo extends BaseRequest {
     @ApiModelProperty(required = true, value = "message", example = "hello")
     private String message ;
 
-    public P2PRequestVo(Long userId, Long receiveUserId, String message) {
+    public P2PRequestVo() {
         this.userId = userId;
         this.receiveUserId = receiveUserId;
         this.message = message;

@@ -11,8 +11,9 @@ import java.util.List;
 
 /**
  * 一致性hash算法抽象类
+ * @author 蒋小胖
  */
-public abstract class AbstartConstentHash {
+public abstract class AbstractConsistentHash {
 
     protected static final String MD5 = "MD5";
 

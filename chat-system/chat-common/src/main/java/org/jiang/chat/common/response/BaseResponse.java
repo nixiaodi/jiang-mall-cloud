@@ -23,6 +23,8 @@ public class BaseResponse<T> implements Serializable {
      */
     private T dataBody;
 
+    public BaseResponse() {}
+
     public BaseResponse(T dataBody) {
         this.dataBody = dataBody;
     }
